@@ -31,7 +31,7 @@ export default function Home() {
             },
           }}
         >
-          <img src="/images/blur.png" className="img" />
+          <img src="/images/blur.png" style={{ maxWidth: "100dvw" }} className="img" />
           <Box sx={{ zIndex: 1 }}>
             <Typography variant="h3" className="font-anton">
               your one stop page for
