@@ -12,7 +12,7 @@ export default function Document() {
         />
         <link
           rel="shortcut icon"
-          href="/logo.png"
+          href="/images/logo.png"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Anton&family=Lexend+Peta&family=Work+Sans:wght@500&display=swap"
