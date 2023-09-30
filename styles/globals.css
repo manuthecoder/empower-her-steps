@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  /* background: #faf6ef; */
+  overflow-x: hidden;
+}
+
+*:not(
+    .font-anton,
+    .font-anton *,
+    .font-lexend-peta,
+    .font-lexend-peta *,
+    .material-symbols-outlined,
+    .material-symbols-outlined *
+  ) {
+  font-family: "Work Sans", sans-serif !important;
+}
+
+.font-anton,
+.font-anton * {
+  font-family: "Anton", sans-serif !important;
+}
+
+.font-lexend-peta,
+.font-lexend-peta * {
+  font-family: "Lexend Peta", sans-serif !important;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 24;
+}
