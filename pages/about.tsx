@@ -3,7 +3,7 @@ import { Box, Grid, Typography } from "@mui/material";
 export default function Home() {
   return (
     <>
-      <Box sx={{ px: 15, pb: 15, maxWidth: "100vw" }}>
+      <Box sx={{ px: { xs: 3, sm: 15 }, pb: 15, maxWidth: "100vw" }}>
         <Grid container sx={{ mt: 10 }}>
           <Grid xs={12} sm={6}>
             <Typography variant="h1" className="font-anton">
