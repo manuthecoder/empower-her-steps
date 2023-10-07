@@ -159,18 +159,33 @@ export default function App({ Component, pageProps }) {
               mr: "auto",
               display: "flex",
               alignItems: "center",
+              justifyContent: "center",
+              flexGrow: 1,
               gap: 2,
             }}
             onClick={() => router.push("/")}
           >
             <img
               src="/images/logo.png?purge=true"
-              style={{ height: "70px!important", width: "70px!important" }}
-              width={70}
-              height={70}
+              style={{
+                height: "80px!important",
+                width: "80px!important",
+                marginLeft: "-15px",
+              }}
+              width={80}
+              height={80}
             />
-            <Typography variant="h6" className="font-lexend-peta">
-              Empower her steps
+            <Typography
+              variant="h6"
+              className="font-lexend-peta"
+              sx={{
+                mx: "auto",
+                ml: { xs: "unset", sm: "auto" },
+                transform: { sm: "translateX(10dvw)" },
+                textAlign: "center",
+              }}
+            >
+              Empower Her Steps
             </Typography>
           </Box>
 
